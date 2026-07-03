@@ -1,0 +1,3 @@
+g++ -std=c++11 -o gameboy main.cpp Game.cpp HangmanGame.cpp GameBoy.cpp SnakeGame.cpp WordleGame.cpp Player.cpp Menu.cpp InputSystem.cpp SoundSystem.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+
+./gameboy
